@@ -31,6 +31,8 @@ brew install gnu-sed --default-names
 brew install bash
 brew install bash-completion
 
+brew install zsh
+
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
@@ -47,35 +49,35 @@ brew install homebrew/dupes/screen
 brew install homebrew/php/php55 --with-gmp
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
-brew install xz
+#brew install bfg
+#brew install binutils
+#brew install binwalk
+#brew install cifer
+#brew install dex2jar
+#brew install dns2tcp
+#brew install fcrackzip
+#brew install foremost
+#brew install hashpump
+#brew install hydra
+#brew install john
+#brew install knock
+#brew install nmap
+#brew install pngcheck
+#brew install socat
+#brew install sqlmap
+#brew install tcpflow
+#brew install tcpreplay
+#brew install tcptrace
+#brew install ucspi-tcp # `tcpserver` etc.
+#brew install xpdf
+#brew install xz
 
 # Install other useful binaries.
 brew install ack
 #brew install exiv2
 brew install git
 brew install imagemagick --with-webp
-brew install lynx
+#brew install lynx
 brew install p7zip
 brew install pigz
 brew install pv
@@ -93,3 +95,42 @@ brew install homebrew/versions/lua52
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+brew install caskroom/cask/brew-cask
+
+# Apps
+echo "installing apps..."
+brew cask install --appdir="/Applications"  #alfred
+brew cask install --appdir="/Applications"  dropbox
+brew cask install --appdir="/Applications"  google-chrome
+brew cask install --appdir="/Applications"  qlcolorcode
+brew cask install --appdir="/Applications"  #screenflick
+brew cask install --appdir="/Applications"  #slack
+brew cask install --appdir="/Applications"  #transmit
+brew cask install --appdir="/Applications"  appcleaner
+brew cask install --appdir="/Applications"  firefox
+brew cask install --appdir="/Applications"  #hazel
+brew cask install --appdir="/Applications"  #qlmarkdown
+brew cask install --appdir="/Applications"  #seil
+brew cask install --appdir="/Applications"  #spotify
+brew cask install --appdir="/Applications"  vagrant
+brew cask install --appdir="/Applications"  #arq
+brew cask install --appdir="/Applications"  flash
+brew cask install --appdir="/Applications"  iterm2
+brew cask install --appdir="/Applications"  #qlprettypatch
+brew cask install --appdir="/Applications"  #shiori
+brew cask install --appdir="/Applications"  #sublime-text3
+brew cask install --appdir="/Applications"  virtualbox
+brew cask install --appdir="/Applications"  #atom
+brew cask install --appdir="/Applications"  flux
+brew cask install --appdir="/Applications"  #mailbox
+brew cask install --appdir="/Applications"  #qlstephen
+brew cask install --appdir="/Applications"  #tower
+brew cask install --appdir="/Applications"  vlc
+brew cask install --appdir="/Applications"  #cloudup
+brew cask install --appdir="/Applications"  #nvalt
+brew cask install --appdir="/Applications"  quicklook-json
+brew cask install --appdir="/Applications"  skype
+brew cask install --appdir="/Applications"  transmission
+brew cask install --appdir="/Applications"  caffeine
+
