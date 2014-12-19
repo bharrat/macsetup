@@ -131,6 +131,6 @@ brew cask install --appdir="/Applications"  #cloudup
 brew cask install --appdir="/Applications"  #nvalt
 brew cask install --appdir="/Applications"  quicklook-json
 brew cask install --appdir="/Applications"  skype
-brew cask install --appdir="/Applications"  transmission
+#brew cask install --appdir="/Applications"  transmission
 brew cask install --appdir="/Applications"  caffeine
 
